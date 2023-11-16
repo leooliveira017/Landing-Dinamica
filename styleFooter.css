@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #0d3f86;
+    color: white;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 25px;
+    height: 360px;
+    border-bottom: solid 60px #191970;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hor__funcionamento {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 24px;
+}
+.segunda {
+    padding-top: 7px;
+    padding-bottom: 2px;
+} 
+
+.terca {
+    padding-bottom: 2px;
+}
+
+.quarta {
+    padding-bottom: 2px;
+}
+
+.quinta {
+    padding-bottom: 2px;
+}
+
+.sexta {
+    padding-bottom: 2px;
+}
+
+.sabado {
+    padding-bottom: 2px;
+}
+
+.domingo {
+    padding-top: 10px;
+}
+
+
+
+.dia1 {
+    padding-right: 12px;
+}
+
+
+.dia2 {
+    padding-right: 16px;
+}
+
+
+.dia3 {
+    padding-right: 10px;
+}
+
+
+.dia4 {
+    padding-right: 13px;
+}
+
+
+.dia5 {
+    padding-right: 13px;
+}
+
+
+.dia6 {
+    padding-right: 12px;
+}
+
+
+.dia7 {
+    padding-right: 7px;
+}
+
+.barra {
+    padding: 0 5px 0px;
+    font-size: 27px;
+}
+
+.titulo__horario__footer {
+    font-size: 22px;
+}
+#titulo__horario__footer {
+    font-size: 25px;
+}
+
+
+.texto__redesociais {
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+
+.facebook__footer {
+    padding-right: 6px;
+}
+
+.telefone__footer {
+    padding-bottom: 14px;
+    font-size: 27px;
+}
+
+.email__footer {
+    padding-bottom: 14px;
+    font-size: 27px;
+}
+
+.copy__footer {
+    display: flex;
+    padding-bottom: -20px;
+}
+
+.copy__footer--texto {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__footer :hover {
+    opacity: .9;
+}

@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.area {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow:  0 0.3em 1em grey;
+    border-top: solid 10px #0d3f86;
+    border-radius: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -40px;
+}
+
+
+.area__textop1--titulo1 {
+    padding-top: 50px; 
+    font-size: 40px;
+    color: #0d3f86;
+    padding-bottom: 30px;
+}
+
+.area__textop1--paragrafo1 {
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.area__imagens {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.area__textop2--titulo2 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 44px;
+    color: #0d3f86;
+}
+
+
+.area__textop2--paragrafo2 {
+    font-size: 26px;
+    padding-bottom: 60px;
+}
+
+hr {
+    color: grey;
+}
+
+
+.area__cards {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    text-align: center;
+    padding: 70px;
+}
+
+.area__cards--card1 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card1.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+
+
+.area__cards--card2 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card2.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+.area__cards--card3 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card3.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+
+.area__cards--card4 {
+    padding-top:40px;
+    color: white;
+    background-image: url(assets/card4.png);
+    width: 280px;
+    height: 110px;
+    background-size: 280px;
+}
+
+
+.entre__contato {
+    padding: 30px 0 30px;
+    font-family: 'Nunito',sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ultimohr {
+    margin-top: 80px;
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+
+.secao02 {
+    background-image: url("./assets/foto.mulher.png");
+    background-size: cover;
+    border-radius: 60px;
+    width: 1462px;
+    background-color: #0d3f86;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 60px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.secao02__botao {
+    padding: 11px 50px 11px ;
+    border-radius: 30px;
+    border: solid white 5px;
+    color: black;
+    background-color: rgb(198, 210, 219);
+    font-size: 19px;
+    opacity: 0.7;
+    position: absolute;
+
+   display: flex;
+}
+
+.secao02__botao--seta {
+    margin-left: 9px;
+}
+
+.secao03 {
+    background-image: url("./assets/foto.pessoas.png");
+    background-size: cover;
+    width: 100%;
+    background-color: #0d3f86;
+    height: 600px;
+    margin-top: 40px;
+    
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.secao03__botao {
+    padding: 11px 50px 11px ;
+    border-radius: 30px;
+    border: solid white 5px;
+    color: black;
+    background-color: rgb(198, 210, 219);
+    font-size: 19px;
+    opacity: 0.7;
+    position: absolute;
+
+    display: flex;
+}
+
+.secao03__botao--seta {
+    margin-left: 7px;
+}
+
+.mapa {
+   margin-top: 20px;
+   margin-left: 30px;
+   font-size: 35px;
+}
+
+.mapa__p2 {
+    color:  #0d3f86;
+}
+
+.mapa__endereço {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.mapa__endereço--p1 {
+    color:  #0d3f86;
+    font-size: 20px;
+}
+
+.maps {
+    border-radius: 20px;
+    width: 1462px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
